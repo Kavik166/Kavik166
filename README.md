@@ -1,33 +1,59 @@
 <div align="center">
 
-# Привет, я Kavik 👋
+<img src="assets/terminal.svg" width="760" alt="kavik@netrix: whoami"/>
 
-**Основатель и разработчик [Netrix.pw](https://netrix.pw)**
-Игровой хостинг, VDS и панель управления серверами — всё своё, от сайта до автоматизации.
+<br/>
 
-[![Сайт](https://img.shields.io/badge/netrix.pw-0a0a0a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://netrix.pw)
-[![Канал](https://img.shields.io/badge/Telegram-канал-0a0a0a?style=for-the-badge&logo=telegram&logoColor=26A5E4)](https://t.me/netrixpw)
-[![Поддержка](https://img.shields.io/badge/Telegram-поддержка-0a0a0a?style=for-the-badge&logo=telegram&logoColor=26A5E4)](https://t.me/netrixpwsupport)
+[![Netrix.pw](https://img.shields.io/badge/netrix.pw-0d1117?style=for-the-badge&logo=googlechrome&logoColor=58a6ff)](https://netrix.pw)
+[![Канал](https://img.shields.io/badge/канал-@netrixpw-0d1117?style=for-the-badge&logo=telegram&logoColor=26A5E4)](https://t.me/netrixpw)
+[![Поддержка](https://img.shields.io/badge/поддержка-@netrixpwsupport-0d1117?style=for-the-badge&logo=telegram&logoColor=26A5E4)](https://t.me/netrixpwsupport)
+[![Личное](https://img.shields.io/badge/личное-@Kav16Dev-0d1117?style=for-the-badge&logo=telegram&logoColor=f778ba)](https://t.me/Kav16Dev)
 
 </div>
 
----
+<br/>
 
-### Чем занимаюсь
+```ts
+// kavik.ts
 
-- **Netrix.pw.** Хостинг игровых серверов, VDS и VPN с личным кабинетом, тарифами, оплатой и автопродлением.
-- **Автоматизация.** Выдача серверов за секунды, перезапуск, переустановка и контроль ресурсов через панели Pterodactyl и VMmanager.
-- **Своя панель.** Расширения для Pterodactyl: игроки и операторы, свойства сервера, смена ядра, быстрые команды.
-- **Платежи и уведомления.** Приём оплаты, Telegram- и Discord-боты, статус сервисов.
+const kavik = {
+  name: "Kavik",
+  role: "Основатель и разработчик Netrix.pw",
 
-### Стек
+  building: [
+    "хостинг игровых серверов, VDS и VPN",
+    "личный кабинет, оплата и автопродление",
+    "расширения для панели Pterodactyl",
+  ],
 
-`TypeScript` · `Next.js` · `React` · `Tailwind CSS` · `Node.js` · `Prisma` · `MySQL` · `Docker` · `Nginx` · `Pterodactyl` · `Linux`
+  stack: {
+    языки: ["TypeScript", "JavaScript", "SQL", "Bash"],
+    веб: ["Next.js", "React", "Tailwind CSS", "Node.js"],
+    данные: ["Prisma", "MySQL"],
+    инфраструктура: ["Docker", "Nginx", "Linux", "Pterodactyl"],
+  },
 
-### Где меня найти
+  currentlyThinking: () => "как сделать ещё быстрее и проще",
+} as const;
 
-- Сайт: [netrix.pw](https://netrix.pw)
-- Новости проекта: [@netrixpw](https://t.me/netrixpw)
-- Вопросы и поддержка: [@netrixpwsupport](https://t.me/netrixpwsupport)
+export default kavik;
+```
 
-<sub>Код сайта в закрытом репозитории.</sub>
+<br/>
+
+```ts
+// контакты
+
+export const contacts = {
+  сайт: "https://netrix.pw",
+  новости: "https://t.me/netrixpw",
+  поддержка: "https://t.me/netrixpwsupport",
+  личная_жизнь: "https://t.me/Kav16Dev", // личный канал
+};
+```
+
+<div align="center">
+
+<sub>Код сайта в закрытом репозитории · приветствие написано кодом</sub>
+
+</div>
