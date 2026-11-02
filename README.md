@@ -1,6 +1,6 @@
 <div align="center">
 
-# Я Kavik 👋
+# БИГ БЫЫРРР
 
 **Делаю [Netrix.pw](https://netrix.pw): хостинг игровых серверов, VDS и панель управления**
 
