@@ -2,7 +2,7 @@
 
 # БИГ БЫЫРРР
 
-**Делаю [Netrix.pw](https://netrix.pw): хостинг игровых серверов, VDS и панель управления**
+**[Netrix.pw](https://netrix.pw): хостинг игровых серверов, VDS и панель управления**
 
 [![Моя личная жизнь](https://img.shields.io/badge/моя_личная_жизнь-Telegram-0a0a0a?style=for-the-badge&logo=telegram&logoColor=26A5E4)](https://t.me/Kav16Dev)
 
